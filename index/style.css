@@ -1,0 +1,19 @@
+/*primeiro passos do css*/
+body {
+    background-color: aqua;
+    border: red solid 1px;
+}
+p {
+    text-align: center;
+    margin: 20px auto;
+}
+h2 {
+
+}
+.menu li a {
+    color: chocolate;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    
+}
