@@ -1,0 +1,87 @@
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1 class="titulo-formulario">Cadastro de Cliente multimarcas de carros esportivos</h1>
+
+
+            <label>Nome completo:
+                <input type="text" name="nome" required>
+            </label><br>
+
+            <label>CPF:
+                <input type="text" name="cpf" required>
+            </label><br>
+
+            <label>Telefone:
+                <input type="tel" name="telefone" required>
+            </label><br>
+
+            <label>Email:
+                <input type="email" name="email">
+            </label><br>
+
+            <label>Data de nascimento:
+                <input type="date" name="data_nascimento">
+            </label><br>
+
+            <label>Endereço:
+                <input type="text" name="endereco" required>
+            </label><br>
+
+            <label>Cidade:
+                <input type="text" name="cidade">
+            </label><br>
+
+            <label>Estado:
+                <select name="estado">
+                    <option value="">Selecione</option>
+                    <option>PR</option>
+                    <option>RS</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>MG</option>
+                </select>
+            </label><br>
+
+            <label>Sexo:
+                <input type="radio" name="sexo" value="masculino"> Masculino
+                <input type="radio" name="sexo" value="feminino"> Feminino
+            </label><br>
+
+            <label>Interesse em:
+                <input type="checkbox" name="interesse" value="porscher macan"> porscher macan
+                <input type="checkbox" name="interesse" value="audi a5"> audi a5
+                <input type="checkbox" name="interesse" value="bmw m3"> bmw m3
+                <input type="checkbox" name="interesse" value="outros"> Outros
+            </label><br>
+
+            <label>Forma de pagamento preferida:
+                <select name="pagamento">
+                    <option>A vista</option>
+                    <option>Financiamento</option>
+                    <option>Consórcio</option>
+                </select>
+            </label><br>
+
+            <label>Possui carros esportivos atualmente?
+                <input type="radio" name="possui_maquina" value="sim"> Sim
+                <input type="radio" name="possui_maquina" value="nao"> Não
+            </label><br>
+
+            <label>Observações:
+                <textarea name="obs" rows="4" cols="30"></textarea>
+            </label><br>
+
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Cadastrar">
+        </fieldset>
+    </form>
+
+    <p class="creditos">Imagem de fundo: Foto de carro esportivo por Freepik</p>
+</body>
+</html>

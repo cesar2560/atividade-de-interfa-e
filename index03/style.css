@@ -1,0 +1,51 @@
+.titulo-index {
+    color: darkblue;
+    font-size: 2em;
+    text-align: center;
+}
+
+.descricao-index {
+    font-style: italic;
+    text-align: center;
+}
+
+.botao-index {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: lightblue;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.titulo-formulario {
+    color: darkgreen;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.grupo-formulario {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.creditos {
+    font-size: 0.8em;
+    text-align: center;
+    color: gray;
+}
+body {
+    background-image: url(../index03/imagem/futuristic-sports-car-night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}.grupo-formulario {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+}
